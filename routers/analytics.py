@@ -12,8 +12,8 @@ class AnalyticsRequest(BaseModel):
     datasetId: str
     filters: Optional[dict] = {}
 
-def find_column(df, keywords):
-    for col in df.columns:
+def find_column(columns, keywords):
+    for col in columns:
         if any(k in str(col).lower() for k in keywords):
             return col
     return None
@@ -45,20 +45,20 @@ async def generate_analytics(req: AnalyticsRequest, user_id: str = Depends(get_c
         if len(df) == 0:
             raise ValueError("No data available for the selected filters.")
 
-        # Heuristic Column Detection
-        sales_col = find_column(df, ['sales', 'revenue', 'amount', 'total'])
-        profit_col = find_column(df, ['profit', 'margin'])
-        order_col = find_column(df, ['order', 'transaction', 'invoice', 'id'])
-        customer_col = find_column(df, ['customer', 'client', 'user', 'name'])
-        region_col = find_column(df, ['region', 'state', 'city', 'country', 'location'])
-        category_col = find_column(df, ['category', 'product', 'item', 'department', 'sub-category'])
-        
+        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        cat_cols = df.select_dtypes(include=['object', 'category']).columns.tolist()
         date_cols = df.select_dtypes(include=['datetime64']).columns.tolist()
         date_col = date_cols[0] if date_cols else None
 
-        # Fallbacks for generic datasets
-        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
-        cat_cols = df.select_dtypes(include=['object', 'category']).columns.tolist()
+        # Heuristic Column Detection - Only search numeric columns for metrics
+        sales_col = find_column(numeric_cols, ['sales', 'revenue', 'amount', 'total'])
+        profit_col = find_column(numeric_cols, ['profit', 'margin'])
+        
+        # Search all columns for dimensions
+        order_col = find_column(df.columns, ['order', 'transaction', 'invoice', 'id'])
+        customer_col = find_column(df.columns, ['customer', 'client', 'user', 'name'])
+        region_col = find_column(cat_cols, ['region', 'state', 'city', 'country', 'location'])
+        category_col = find_column(cat_cols, ['category', 'product', 'item', 'department', 'sub-category'])
         
         if not sales_col and numeric_cols: sales_col = numeric_cols[0]
         if not profit_col and len(numeric_cols) > 1: profit_col = numeric_cols[1]
