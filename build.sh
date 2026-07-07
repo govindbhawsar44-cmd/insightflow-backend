@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+export PRISMA_BINARY_CACHE_DIR="/opt/render/project/src/.prisma-binaries"
+
 # Exit on error
 set -o errexit
 
