@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+export PRISMA_BINARY_CACHE_DIR="/opt/render/project/src/.prisma-binaries"
 
 # Ensure uploads directory exists
 mkdir -p uploads
