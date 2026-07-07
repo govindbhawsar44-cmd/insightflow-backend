@@ -13,3 +13,6 @@ prisma generate
 
 # Push DB schema to create dev.db if it doesn't exist
 prisma db push
+
+# Backup schema.prisma so it survives the persistent disk mount at runtime
+cp prisma/schema.prisma schema_backup.prisma

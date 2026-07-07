@@ -3,6 +3,9 @@
 # Ensure uploads directory exists
 mkdir -p uploads
 
+# Restore schema.prisma that was hidden by the persistent disk mount
+cp schema_backup.prisma prisma/schema.prisma
+
 # Push DB schema to create dev.db if it doesn't exist at runtime
 prisma db push --accept-data-loss
 
