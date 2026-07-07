@@ -58,7 +58,9 @@ async def health_check():
 async def debug_check():
     import traceback, sys, os
     try:
+        if not prisma.is_connected():
+            await prisma.connect()
         datasets = await prisma.dataset.find_many()
         return {"status": "success", "datasets": len(datasets), "db_exists": os.path.exists("prisma/dev.db")}
     except Exception as e:
-        return {"status": "error", "error": str(e), "traceback": traceback.format_exc(), "db_exists": os.path.exists("prisma/dev.db")}
+        return {"status": "error", "error_type": type(e).__name__, "error": str(e), "traceback": traceback.format_exc(), "db_exists": os.path.exists("prisma/dev.db")}
