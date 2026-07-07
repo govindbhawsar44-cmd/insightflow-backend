@@ -1,0 +1,502 @@
+OrderID,Date,Region,City,Category,Product,Customer,Quantity,UnitPrice,Discount,Sales,Profit
+1001,2025-05-20,North,Delhi,Office Supplies,Marker Set,Neha Singh,8,18389,5000,142112.0,13845
+1002,2025-06-16,North,Jaipur,Electronics,Laptop,Priya Patel,7,30595,2000,212165.0,38686
+1003,2025-02-25,West,Pune,Furniture,Sofa,Rahul Verma,1,21026,5000,16026.0,2433
+1004,2025-04-28,East,Kolkata,Electronics,Camera,Priya Patel,12,45182,2000,540184.0,67506
+1005,2025-06-19,North,Jaipur,Electronics,Keyboard,Riya Shah,20,47500,2000,948000.0,106829
+1006,2025-02-11,South,Chennai,Electronics,Mouse,,4,49923,500,199192.0,31289
+1007,2025-04-08,East,Patna,Electronics,Keyboard,Aditya Roy,3,22531,2000,65593.0,13377
+1008,2025-01-17,East,Bhubaneswar,Office Supplies,Marker Set,Riya Shah,2,30121,0,60242.0,13063
+1009,2025-05-18,South,Chennai,Electronics,Smartphone,Vikram Rao,15,18826,500,281890.0,29242
+1010,2025-01-29,East,Ranchi,Office Supplies,Printer Ink,Sneha Joshi,8,18231,2000,143848.0,23576
+1011,2025-03-06,South,Hyderabad,Office Supplies,Printer Ink,Karan Mehta,3,50532,1000,150596.0,27303
+1012,2025-01-01,North,Delhi,Office Supplies,Whiteboard,Meera Jain,9,44687,0,402183.0,52241
+1013,2025-02-11,East,Bhubaneswar,Office Supplies,Notebook,Riya Shah,10,66640,2000,664400.0,75618
+1014,2025-01-21,North,Lucknow,Furniture,Desk,Priya Patel,12,40406,200,484672.0,43546
+1015,2025-02-24,North,Jaipur,Electronics,Tablet,Rohan Kumar,16,21743,500,347388.0,58953
+1016,2025-01-06,South,Chennai,Furniture,Bookshelf,Ananya Das,17,59277,0,1007709.0,123085
+1017,2025-01-19,South,Hyderabad,Electronics,Monitor,Aditya Roy,2,30107,0,60214.0,14085
+1018,2025-05-02,South,Chennai,Office Supplies,Printer Ink,Neha Singh,18,17442,5000,308956.0,73852
+1019,2025-01-14,South,Kochi,Furniture,Chair,Priya Patel,4,56598,500,225892.0,34337
+1020,2025-04-19,North,Delhi,Furniture,Bookshelf,Meera Jain,4,32691,200,130564.0,14666
+1021,2025-05-19,South,Chennai,Furniture,Chair,Riya Shah,3,58182,2000,,16675
+1022,2025-02-12,North,Delhi,Electronics,Tablet,Vikram Rao,16,63192,200,1010872.0,229458
+1023,2025-05-23,West,Mumbai,Furniture,Bookshelf,Harish Menon,15,37488,1000,561320.0,111377
+1024,2025-05-03,West,Pune,Electronics,Keyboard,Neha Singh,2,8089,5000,11178.0,1490
+1025,2025-04-14,South,Bengaluru,Office Supplies,Notebook,Riya Shah,6,9081,2000,52486.0,4805
+1026,2025-03-22,North,Chandigarh,Office Supplies,Whiteboard,Aarav Sharma,20,10845,1000,215900.0,41399
+1027,2025-03-22,East,Bhubaneswar,Office Supplies,Marker Set,Neha Singh,9,51976,200,467584.0,90798
+1028,2025-03-31,North,Delhi,Furniture,Sofa,Karan Mehta,4,9702,2000,36808.0,4278
+1029,2025-05-16,North,Chandigarh,Furniture,Bookshelf,Rohan Kumar,15,39751,2000,594265.0,146935
+1030,2025-02-09,North,Lucknow,Office Supplies,Notebook,Harish Menon,5,34764,0,173820.0,40196
+1031,2025-05-06,East,Patna,Office Supplies,Printer Paper,Aditya Roy,11,26785,5000,289635.0,54399
+1032,2025-03-09,East,Kolkata,Electronics,Camera,Riya Shah,9,5878,0,52902.0,7231
+1033,2025-02-08,South,Kochi,Office Supplies,Printer Ink,Arjun Gupta,1,14763,0,14763.0,3552
+1034,2025-01-11,North,Lucknow,Office Supplies,Whiteboard,Rohan Kumar,14,16804,0,235256.0,31148
+1035,2025-06-08,East,Bhubaneswar,Office Supplies,Printer Paper,Isha Nair,4,46457,2000,183828.0,42336
+1036,2025-04-16,South,Hyderabad,Electronics,Tablet,Harish Menon,14,3348,200,46672.0,9577
+1037,2025-03-31,South,Chennai,Electronics,Monitor,Vikram Rao,2,61794,200,123388.0,14057
+1038,2025-03-13,East,Bhubaneswar,Electronics,Laptop,Isha Nair,7,52327,500,365789.0,46587
+1039,2025-03-09,East,Ranchi,Office Supplies,Whiteboard,Sneha Joshi,1,15218,500,14718.0,1624
+1040,2025-05-28,North,Delhi,Office Supplies,Printer Ink,Sneha Joshi,11,57299,2000,628289.0,155388
+1041,2025-03-26,South,Chennai,Electronics,Camera,Aarav Sharma,17,25925,500,440225.0,67495
+1042,2025-02-02,East,Kolkata,Office Supplies,Marker Set,Arjun Gupta,10,53628,500,535780.0,79514
+1043,2025-02-23,South,Kochi,Office Supplies,Printer Ink,Isha Nair,6,39546,1000,236276.0,-2850
+1044,2025-02-13,West,Ahmedabad,Furniture,Cabinet,Ananya Das,7,67100,1000,468700.0,100740
+1045,2025-02-07,North,Lucknow,Office Supplies,Whiteboard,Sneha Joshi,3,30884,5000,87652.0,11637
+1046,2025-06-28,North,Delhi,Electronics,Smartphone,Karan Mehta,3,59792,1000,178376.0,41141
+1047,2025-06-28,West,Surat,Furniture,Chair,Rohan Kumar,1,14070,1000,13070.0,1531
+1048,2025-05-24,West,Mumbai,Office Supplies,Printer Paper,Harish Menon,4,59929,200,239516.0,51793
+1049,2025-03-08,East,Ranchi,Office Supplies,Whiteboard,Vikram Rao,18,58546,200,1053628.0,217491
+1050,2025-03-11,South,Chennai,Office Supplies,Printer Ink,Isha Nair,8,36092,1000,287736.0,26808
+1051,2025-01-17,East,Patna,Office Supplies,Notebook,Rohan Kumar,5,30411,1000,151055.0,29904
+1052,2025-05-30,West,Surat,Furniture,Sofa,Ananya Das,14,8261,200,115454.0,25583
+1053,2025-06-04,North,Jaipur,Furniture,Desk,Sneha Joshi,10,51216,1000,511160.0,87662
+1054,2025-04-14,South,Kochi,Electronics,Keyboard,Vikram Rao,16,3904,1000,61464.0,8429
+1055,2025-04-29,South,Kochi,Electronics,Laptop,Harish Menon,13,3652,0,47476.0,8985
+1056,2025-03-13,South,Bengaluru,Furniture,Cabinet,Sneha Joshi,7,59698,500,417386.0,57338
+1057,2025-06-16,West,Ahmedabad,Electronics,Smartphone,Aarav Sharma,18,6926,500,124168.0,14666
+1058,2025-05-25,North,Delhi,Electronics,Mouse,Riya Shah,1,20073,200,19873.0,2016
+1059,2025-01-30,South,Kochi,Office Supplies,Marker Set,Meera Jain,12,22092,2000,263104.0,48209
+1060,2025-06-01,South,Chennai,Electronics,Laptop,Harish Menon,10,49292,1000,491920.0,118085
+1061,2025-04-20,South,Bengaluru,Office Supplies,Marker Set,Riya Shah,20,15966,2000,317320.0,67604
+1062,2025-04-28,East,Kolkata,Office Supplies,Marker Set,Aarav Sharma,14,64351,0,900914.0,138469
+1063,2025-03-10,South,Kochi,Electronics,Keyboard,Karan Mehta,18,63472,1000,1141496.0,175844
+1064,2025-03-28,East,Bhubaneswar,Electronics,Keyboard,Harish Menon,15,32063,1000,479945.0,84890
+1065,2025-06-29,North,Jaipur,Furniture,Chair,Ananya Das,7,46607,500,325749.0,44906
+1066,2025-05-02,East,Kolkata,Office Supplies,Printer Paper,Priya Patel,8,53371,1000,425968.0,74280
+1067,2025-04-05,West,Surat,Electronics,Monitor,Rahul Verma,8,53105,5000,419840.0,50952
+1068,2025-02-19,West,Ahmedabad,Furniture,Sofa,Sneha Joshi,12,59573,500,714376.0,94387
+1069,2025-05-31,East,Kolkata,Office Supplies,Whiteboard,Meera Jain,6,25205,200,151030.0,31046
+1070,2025-03-12,East,Kolkata,Electronics,Keyboard,Neha Singh,12,23619,500,282928.0,23314
+1071,2025-05-01,North,Delhi,Office Supplies,Marker Set,Aditya Roy,5,64440,0,322200.0,73578
+1072,2025-01-19,West,Surat,Furniture,Chair,Aarav Sharma,9,62716,0,564444.0,124042
+1073,2025-06-08,North,Chandigarh,Electronics,Keyboard,Priya Patel,8,15625,2000,123000.0,25824
+1074,2025-01-26,South,Kochi,Furniture,Cabinet,Rahul Verma,19,56307,500,1069333.0,188915
+1075,2025-06-26,South,Hyderabad,Furniture,Desk,Rohan Kumar,8,22882,2000,181056.0,-4190
+1076,2025-06-10,West,Ahmedabad,Electronics,Mouse,Rahul Verma,10,59610,0,596100.0,117345
+1077,2025-03-20,South,Kochi,Electronics,Mouse,Isha Nair,5,34916,200,174380.0,16067
+1078,2025-01-21,East,Ranchi,Electronics,Smartphone,Aditya Roy,10,52857,500,528070.0,87173
+1079,2025-05-28,North,Jaipur,Office Supplies,Marker Set,Karan Mehta,9,3490,0,31410.0,3735
+1080,2025-02-16,North,Lucknow,Office Supplies,Notebook,Meera Jain,6,61769,2000,368614.0,70315
+1081,2025-03-26,West,Surat,Electronics,Smartphone,Sneha Joshi,14,43787,500,612518.0,118781
+1082,2025-01-30,West,Surat,Furniture,Cabinet,Riya Shah,18,4909,1000,87362.0,8296
+1083,2025-05-08,West,Mumbai,Office Supplies,Whiteboard,Ananya Das,14,7204,200,100656.0,16923
+1084,2025-01-08,West,Mumbai,Electronics,Keyboard,Arjun Gupta,5,37852,1000,188260.0,43251
+1085,2025-01-30,South,Hyderabad,Furniture,Sofa,Aarav Sharma,18,53576,0,964368.0,113987
+1086,2025-05-01,West,Mumbai,Office Supplies,Printer Paper,Ananya Das,10,66798,5000,662980.0,83855
+1087,2025-03-12,South,Kochi,Office Supplies,Printer Paper,Vikram Rao,7,66716,5000,462012.0,106025
+1088,2025-06-18,West,Ahmedabad,Office Supplies,Marker Set,Riya Shah,1,37172,5000,32172.0,4206
+1089,2025-03-24,West,Pune,Furniture,Sofa,Ananya Das,12,43673,2000,522076.0,109473
+1090,2025-04-08,South,Hyderabad,Office Supplies,Printer Ink,Neha Singh,14,5820,500,80980.0,16730
+1091,2025-05-15,West,Pune,Furniture,Desk,Rohan Kumar,17,43615,0,741455.0,169505
+1092,2025-06-09,West,Mumbai,Office Supplies,Printer Paper,Vikram Rao,5,9907,1000,48535.0,10331
+1093,2025-06-11,West,Mumbai,Furniture,Sofa,Vikram Rao,11,64056,2000,702616.0,60497
+1094,2025-01-08,East,Bhubaneswar,Office Supplies,Notebook,Vikram Rao,4,13273,1000,52092.0,5640
+1095,2025-06-24,North,Lucknow,Electronics,Keyboard,Sneha Joshi,12,56550,200,678400.0,82434
+1096,2025-04-29,South,Hyderabad,Electronics,Monitor,Karan Mehta,13,31666,1000,410658.0,96578
+1097,2025-03-30,East,Ranchi,Furniture,Desk,Harish Menon,15,37800,5000,562000.0,97181
+1098,2025-04-08,East,Ranchi,Office Supplies,Marker Set,Ananya Das,10,26211,1000,261110.0,58767
+1099,2025-01-13,East,Patna,Office Supplies,Marker Set,Aarav Sharma,13,36076,0,468988.0,82639
+1100,2025-06-24,West,Ahmedabad,Electronics,SSD,Neha Singh,7,32950,5000,225650.0,47036
+1101,2025-03-17,South,Bengaluru,Office Supplies,Notebook,Rahul Verma,15,4473,2000,65095.0,9245
+1102,2025-02-12,East,Ranchi,Electronics,Mouse,Rohan Kumar,18,48053,2000,862954.0,142650
+1103,2025-06-23,East,Ranchi,Furniture,Bookshelf,Meera Jain,4,61485,0,245940.0,25560
+1104,2025-03-09,West,Ahmedabad,Electronics,Camera,Aarav Sharma,9,16299,1000,145691.0,20784
+1105,2025-04-29,West,Ahmedabad,Electronics,Mouse,Ananya Das,1,43092,2000,41092.0,4833
+1106,2025-05-18,East,Ranchi,Electronics,Tablet,Aarav Sharma,2,39993,1000,78986.0,7878
+1107,2025-04-17,South,Kochi,Furniture,Bookshelf,Isha Nair,18,55035,2000,988630.0,203841
+1108,2025-04-03,North,Jaipur,Office Supplies,Printer Ink,Rahul Verma,2,48666,200,97132.0,15091
+1109,2025-04-27,North,Lucknow,Office Supplies,Marker Set,Aarav Sharma,13,36260,200,471180.0,115248
+1110,2025-02-22,North,Chandigarh,Office Supplies,Whiteboard,Aarav Sharma,2,43813,200,87426.0,21690
+1111,2025-03-12,North,Chandigarh,Office Supplies,Printer Paper,Riya Shah,8,43164,200,345112.0,73877
+1112,2025-04-02,South,Hyderabad,Office Supplies,Marker Set,Meera Jain,6,14508,5000,82048.0,18649
+1113,2025-01-17,South,Chennai,Electronics,Tablet,Rahul Verma,2,16714,5000,28428.0,4308
+1114,2025-06-18,West,Surat,Furniture,Sofa,Karan Mehta,4,59345,2000,235380.0,27695
+1115,2025-04-24,East,Ranchi,Office Supplies,Notebook,Aarav Sharma,16,52740,1000,842840.0,165733
+1116,2025-03-25,North,Delhi,Furniture,Sofa,Rohan Kumar,3,16640,500,49420.0,9198
+1117,2025-05-22,West,Ahmedabad,Furniture,Sofa,Karan Mehta,14,13099,5000,178386.0,17740
+1118,2025-04-20,South,Kochi,Furniture,Chair,Vikram Rao,11,59541,1000,653951.0,98562
+1119,2025-01-25,East,Patna,Furniture,Chair,Isha Nair,16,8899,0,142384.0,31523
+1120,2025-06-20,East,Bhubaneswar,Office Supplies,Notebook,Karan Mehta,18,43307,5000,774526.0,78056
+1121,2025-05-04,West,Mumbai,Furniture,Sofa,Rahul Verma,12,13679,2000,162148.0,26958
+1122,2025-05-24,South,Bengaluru,Furniture,Sofa,Sneha Joshi,4,36612,2000,144448.0,17109
+1123,2025-05-25,North,Lucknow,Electronics,Tablet,Rahul Verma,10,44641,500,445910.0,36135
+1124,2025-04-05,West,Mumbai,Electronics,Laptop,Priya Patel,17,28297,1000,480049.0,72665
+1125,2025-01-21,East,Patna,Office Supplies,Whiteboard,Priya Patel,2,20492,200,40784.0,8493
+1126,2025-01-30,East,Ranchi,Office Supplies,Printer Ink,Ananya Das,20,58039,1000,1159780.0,146640
+1127,2025-04-12,East,Ranchi,Electronics,Keyboard,Isha Nair,19,63883,2000,1211777.0,234372
+1128,2025-02-14,North,Delhi,Electronics,Keyboard,Neha Singh,5,33591,500,167455.0,-4027
+1129,2025-04-22,South,Kochi,Office Supplies,Printer Paper,Arjun Gupta,18,46521,0,837378.0,123515
+1130,2025-04-14,North,Jaipur,Electronics,SSD,Karan Mehta,14,53108,5000,738512.0,139448
+1131,2025-05-31,North,Lucknow,Electronics,Smartphone,Riya Shah,12,11651,1000,138812.0,31033
+1132,2025-06-12,West,Mumbai,Furniture,Bookshelf,Aditya Roy,11,29141,500,320051.0,67994
+1133,2025-06-04,North,Chandigarh,Furniture,Bookshelf,Aditya Roy,5,31068,0,155340.0,16294
+1134,2025-06-12,South,Bengaluru,Electronics,Smartphone,Ananya Das,19,58938,5000,1114822.0,264331
+1135,2025-01-15,East,Patna,Electronics,Smartphone,Priya Patel,16,58061,5000,923976.0,121483
+1136,2025-01-24,East,Kolkata,Furniture,Cabinet,Ananya Das,2,7556,500,14612.0,3234
+1137,2025-05-02,West,Surat,Office Supplies,Whiteboard,Meera Jain,2,59047,2000,116094.0,22152
+1138,2025-04-23,South,Bengaluru,Furniture,Desk,Meera Jain,11,11153,2000,120683.0,22910
+1139,2025-01-14,West,Pune,Furniture,Bookshelf,Harish Menon,10,50879,1000,507790.0,107478
+1140,2025-06-04,East,Kolkata,Furniture,Desk,Arjun Gupta,13,37343,500,484959.0,98463
+1141,2025-06-02,South,Chennai,Electronics,Tablet,Harish Menon,12,40762,5000,484144.0,96219
+1142,2025-06-25,North,Lucknow,Office Supplies,Printer Ink,Isha Nair,11,16850,5000,180350.0,35976
+1143,2025-05-05,North,Jaipur,Office Supplies,Marker Set,Aarav Sharma,12,40583,200,486796.0,117658
+1144,2025-05-15,South,Hyderabad,Electronics,Tablet,Priya Patel,10,13356,2000,131560.0,27765
+1145,2025-06-09,North,Lucknow,Office Supplies,Printer Paper,Karan Mehta,13,20318,200,263934.0,29229
+1146,2025-04-25,South,Kochi,Electronics,Camera,Sneha Joshi,8,58322,2000,464576.0,59669
+1147,2025-04-29,South,Hyderabad,Furniture,Cabinet,Harish Menon,7,48313,5000,333191.0,80303
+1148,2025-06-14,East,Ranchi,Office Supplies,Whiteboard,Vikram Rao,6,26274,2000,155644.0,16113
+1149,2025-04-26,West,Ahmedabad,Office Supplies,Notebook,Aditya Roy,17,16441,500,278997.0,26297
+1150,2025-04-06,South,Kochi,Electronics,Mouse,Riya Shah,15,45920,0,688800.0,103686
+1151,2025-02-07,South,Kochi,Electronics,SSD,Neha Singh,1,41870,0,41870.0,9322
+1152,2025-01-05,South,Bengaluru,Furniture,Cabinet,Aditya Roy,5,61587,1000,306935.0,56663
+1153,2025-06-13,East,Bhubaneswar,Electronics,Camera,Priya Patel,10,31247,500,311970.0,31419
+1154,2025-02-06,West,Mumbai,Electronics,Smartphone,Karan Mehta,18,2254,5000,35572.0,5962
+1155,2025-04-03,East,Ranchi,Electronics,SSD,Neha Singh,19,54700,200,1039100.0,200487
+1156,2025-01-18,North,Delhi,Furniture,Cabinet,Aarav Sharma,13,49029,500,636877.0,131861
+1157,2025-06-14,East,Bhubaneswar,Office Supplies,Notebook,Meera Jain,19,43683,200,829777.0,72636
+1158,2025-01-10,South,Kochi,Office Supplies,Printer Ink,Isha Nair,6,17775,0,106650.0,21514
+1159,2025-05-20,East,Bhubaneswar,Electronics,Mouse,Harish Menon,2,41465,500,82430.0,13816
+1160,2025-04-05,West,Ahmedabad,Electronics,Mouse,Rahul Verma,12,6365,5000,71380.0,9738
+1161,2025-05-13,West,Surat,Office Supplies,Printer Ink,Harish Menon,13,44538,200,578794.0,95127
+1162,2025-03-25,East,Kolkata,Office Supplies,Printer Ink,Priya Patel,14,23752,2000,330528.0,42948
+1163,2025-04-01,East,Patna,Furniture,Sofa,Aditya Roy,14,21942,5000,302188.0,46979
+1164,2025-01-08,West,Ahmedabad,Office Supplies,Notebook,Priya Patel,13,47719,2000,618347.0,133678
+1165,2025-06-04,South,Kochi,Electronics,Tablet,Priya Patel,8,48115,500,384420.0,55773
+1166,2025-03-13,South,Kochi,Furniture,Bookshelf,Ananya Das,3,18147,2000,52441.0,7466
+1167,2025-06-30,South,Bengaluru,Electronics,Tablet,Ananya Das,17,50823,2000,861991.0,86215
+1168,2025-02-14,West,Pune,Office Supplies,Marker Set,Aditya Roy,16,26337,0,421392.0,43434
+1169,2025-02-10,West,Mumbai,Office Supplies,Marker Set,Isha Nair,12,8611,2000,101332.0,17446
+1170,2025-04-30,South,Chennai,Office Supplies,Printer Paper,Priya Patel,7,18302,200,127914.0,-3522
+1171,2025-01-19,South,Bengaluru,Electronics,Keyboard,Vikram Rao,16,69003,1000,1103048.0,232476
+1172,2025-05-22,South,Chennai,Office Supplies,Notebook,Ananya Das,15,67911,500,1018165.0,103666
+1173,2025-03-24,South,Hyderabad,Furniture,Sofa,Harish Menon,2,16374,2000,30748.0,3259
+1174,2025-02-02,South,Chennai,Office Supplies,Marker Set,Riya Shah,3,32947,200,98641.0,18540
+1175,2025-06-04,East,Kolkata,Office Supplies,Printer Paper,Karan Mehta,19,20310,200,385690.0,74046
+1176,2025-06-08,East,Kolkata,Electronics,Monitor,Aarav Sharma,19,34788,5000,655972.0,75986
+1177,2025-03-18,North,Jaipur,Office Supplies,Whiteboard,Rahul Verma,10,63400,200,633800.0,137405
+1178,2025-02-06,West,Mumbai,Office Supplies,Notebook,Rohan Kumar,15,54576,1000,817640.0,129968
+1179,2025-04-30,East,Patna,Office Supplies,Marker Set,Vikram Rao,5,48667,2000,241335.0,42349
+1180,2025-04-18,North,Lucknow,Furniture,Chair,Rohan Kumar,4,6732,500,26428.0,6361
+1181,2025-05-08,South,Hyderabad,Furniture,Sofa,Aditya Roy,11,24981,200,274591.0,45226
+1182,2025-01-13,East,Ranchi,Electronics,Monitor,Vikram Rao,17,60030,200,1020310.0,118942
+1183,2025-04-04,East,Ranchi,Office Supplies,Printer Ink,Rahul Verma,18,1171,0,21078.0,3230
+1184,2025-05-10,West,Ahmedabad,Electronics,Camera,Aarav Sharma,19,25613,500,486147.0,84612
+1185,2025-05-23,West,Ahmedabad,Office Supplies,Whiteboard,Priya Patel,5,12772,1000,62860.0,9016
+1186,2025-05-02,East,Bhubaneswar,Electronics,Camera,Arjun Gupta,2,6038,0,12076.0,1247
+1187,2025-03-18,West,Pune,Office Supplies,Whiteboard,Rohan Kumar,11,41850,200,460150.0,67551
+1188,2025-04-17,East,Ranchi,Office Supplies,Whiteboard,Rahul Verma,16,2280,500,35980.0,4904
+1189,2025-05-15,East,Kolkata,Office Supplies,Printer Ink,Rahul Verma,19,29924,5000,563556.0,50004
+1190,2025-02-08,West,Pune,Office Supplies,Printer Paper,Aarav Sharma,19,14504,200,275376.0,22916
+1191,2025-05-13,West,Pune,Furniture,Sofa,Meera Jain,20,61914,5000,1233280.0,251167
+1192,2025-05-20,South,Chennai,Office Supplies,Printer Ink,Arjun Gupta,13,41224,200,535712.0,84718
+1193,2025-03-18,East,Patna,Office Supplies,Printer Ink,Neha Singh,8,36669,2000,291352.0,38092
+1194,2025-03-12,East,Bhubaneswar,Office Supplies,Printer Ink,Sneha Joshi,16,45818,2000,731088.0,174531
+1195,2025-01-21,East,Kolkata,Office Supplies,Whiteboard,Vikram Rao,13,45337,200,589181.0,76226
+1196,2025-05-24,East,Ranchi,Office Supplies,Marker Set,Aditya Roy,16,28147,200,450152.0,99371
+1197,2025-04-16,East,Bhubaneswar,Electronics,Mouse,Neha Singh,2,69704,200,139208.0,26233
+1198,2025-05-02,East,Ranchi,Electronics,Tablet,Aarav Sharma,18,20801,1000,373418.0,71319
+1199,2025-01-10,West,Pune,Furniture,Bookshelf,Rahul Verma,2,11825,5000,18650.0,3312
+1200,2025-03-16,South,Kochi,Electronics,Laptop,Riya Shah,13,65030,200,845190.0,202189
+1201,2025-05-15,North,Delhi,Furniture,Sofa,Karan Mehta,4,44014,500,175556.0,27604
+1202,2025-03-07,West,Pune,Office Supplies,Printer Ink,Rahul Verma,7,14864,500,103548.0,11144
+1203,2025-04-14,South,Bengaluru,Office Supplies,Marker Set,Meera Jain,10,25418,200,253980.0,46697
+1204,2025-01-02,West,Ahmedabad,Electronics,Camera,Isha Nair,4,24319,200,97076.0,15645
+1205,2025-03-08,East,Ranchi,Electronics,Smartphone,Meera Jain,9,43304,500,389236.0,69680
+1206,2025-06-30,East,Bhubaneswar,Electronics,Monitor,Ananya Das,10,21034,1000,209340.0,41163
+1207,2025-04-27,East,Kolkata,Office Supplies,Marker Set,Sneha Joshi,20,29047,200,580740.0,140975
+1208,2025-01-21,East,Ranchi,Office Supplies,Whiteboard,Harish Menon,16,28727,200,459432.0,89891
+1209,2025-03-25,West,Ahmedabad,Electronics,Monitor,Aarav Sharma,18,66355,200,1194190.0,211800
+1210,2025-01-15,West,Mumbai,Office Supplies,Printer Paper,Aditya Roy,19,64171,0,1219249.0,283854
+1211,2025-01-06,West,Pune,Office Supplies,Printer Ink,Ananya Das,19,7667,2000,143673.0,22787
+1212,2025-01-16,West,Ahmedabad,Electronics,Mouse,Karan Mehta,3,6036,1000,17108.0,2370
+1213,2025-04-18,North,Jaipur,Electronics,Keyboard,Vikram Rao,6,17850,5000,102100.0,25148
+1214,2025-05-18,East,Ranchi,Furniture,Cabinet,Vikram Rao,3,17531,5000,47593.0,10767
+1215,2025-04-19,West,Pune,Office Supplies,Printer Paper,Riya Shah,1,3079,500,2579.0,409
+1216,2025-01-29,West,Pune,Electronics,Smartphone,Sneha Joshi,5,36229,200,180945.0,43310
+1217,2025-06-22,North,Jaipur,Office Supplies,Notebook,Neha Singh,7,8919,0,62433.0,11298
+1218,2025-01-15,North,Chandigarh,Office Supplies,Notebook,Vikram Rao,15,30815,2000,460225.0,53816
+1219,2025-06-19,South,Chennai,Electronics,SSD,Karan Mehta,20,42130,200,842400.0,110607
+1220,2025-01-13,South,Kochi,Furniture,Bookshelf,Aarav Sharma,18,23055,5000,409990.0,80106
+1221,2025-05-18,East,Ranchi,Office Supplies,Marker Set,Aditya Roy,14,53611,200,750354.0,98282
+1222,2025-05-23,West,Pune,Electronics,Keyboard,Riya Shah,5,60789,0,303945.0,53374
+1223,2025-02-18,South,Kochi,Electronics,Keyboard,Neha Singh,11,10463,1000,114093.0,25558
+1224,2025-06-21,North,Lucknow,Furniture,Sofa,Karan Mehta,2,9639,200,19078.0,4135
+1225,2025-05-03,South,Kochi,Electronics,SSD,Rahul Verma,1,27862,200,27662.0,6737
+1226,2025-03-20,South,Hyderabad,Furniture,Chair,Arjun Gupta,11,37201,1000,408211.0,65012
+1227,2025-04-16,East,Patna,Office Supplies,Printer Ink,Ananya Das,4,61637,500,246048.0,57928
+1228,2025-04-08,North,Chandigarh,Office Supplies,Printer Paper,Aarav Sharma,9,54832,500,492988.0,52212
+1229,2025-02-13,South,Kochi,Office Supplies,Marker Set,Rahul Verma,16,64403,1000,1029448.0,111797
+1230,2025-06-11,South,Kochi,Electronics,Laptop,Arjun Gupta,2,9842,5000,14684.0,-1626
+1231,2025-06-20,South,Bengaluru,Office Supplies,Printer Paper,Aarav Sharma,7,66387,1000,463709.0,66516
+1232,2025-05-18,West,Surat,Electronics,Laptop,Arjun Gupta,18,54014,0,972252.0,80544
+1233,2025-06-08,East,Kolkata,Office Supplies,Printer Ink,Meera Jain,6,14126,0,84756.0,14336
+1234,2025-02-27,East,Patna,Furniture,Cabinet,Priya Patel,12,53318,1000,638816.0,112463
+1235,2025-01-03,East,Kolkata,Office Supplies,Notebook,Priya Patel,13,49810,1000,646530.0,112469
+1236,2025-06-27,South,Bengaluru,Furniture,Cabinet,Isha Nair,11,12599,2000,136589.0,32269
+1237,2025-02-23,West,Ahmedabad,Electronics,Monitor,Isha Nair,9,4412,200,39508.0,9398
+1238,2025-05-19,South,Kochi,Electronics,Keyboard,Rohan Kumar,19,31619,2000,598761.0,132859
+1239,2025-04-22,East,Ranchi,Office Supplies,Printer Paper,Meera Jain,3,65739,5000,192217.0,47215
+1240,2025-04-26,South,Bengaluru,Furniture,Sofa,Meera Jain,20,52096,500,1041420.0,88558
+1241,2025-06-08,West,Pune,Furniture,Sofa,Vikram Rao,14,24445,5000,337230.0,60566
+1242,2025-04-10,East,Bhubaneswar,Office Supplies,Notebook,Priya Patel,9,20314,1000,181826.0,36544
+1243,2025-01-23,East,Patna,Electronics,Monitor,Aarav Sharma,10,58392,500,583420.0,122185
+1244,2025-01-24,South,Kochi,Furniture,Sofa,Arjun Gupta,17,53583,0,910911.0,76939
+1245,2025-03-04,East,Ranchi,Electronics,Keyboard,Vikram Rao,13,11201,5000,140613.0,32789
+1246,2025-03-12,South,Kochi,Electronics,Tablet,Rahul Verma,10,35280,1000,351800.0,36871
+1247,2025-02-20,West,Ahmedabad,Furniture,Desk,Sneha Joshi,9,32421,5000,286789.0,53416
+1248,2025-04-23,West,Mumbai,Electronics,Keyboard,Aarav Sharma,13,43644,2000,565372.0,81742
+1249,2025-03-22,East,Ranchi,Office Supplies,Whiteboard,Rohan Kumar,10,42130,2000,419300.0,101066
+1250,2025-04-11,South,Kochi,Furniture,Bookshelf,Aditya Roy,16,31875,500,509500.0,73332
+1251,2025-02-23,East,Kolkata,Office Supplies,Printer Paper,Karan Mehta,18,23683,5000,421294.0,-4281
+1252,2025-06-18,West,Ahmedabad,Office Supplies,Notebook,Riya Shah,14,65544,200,917416.0,172168
+1253,2025-06-27,South,Kochi,Furniture,Desk,Ananya Das,20,62914,2000,1256280.0,186101
+1254,2025-06-15,West,Mumbai,Furniture,Sofa,Karan Mehta,3,14435,200,43105.0,8267
+1255,2025-05-23,North,Jaipur,Furniture,Cabinet,Priya Patel,1,13024,500,12524.0,1474
+1256,2025-03-17,South,Kochi,Furniture,Cabinet,Ananya Das,19,65697,200,1248043.0,-1356
+1257,2025-03-31,West,Mumbai,Electronics,Tablet,Sneha Joshi,10,45066,1000,449660.0,95924
+1258,2025-03-29,West,Mumbai,Furniture,Cabinet,Sneha Joshi,3,39456,0,118368.0,25772
+1259,2025-03-01,North,Chandigarh,Office Supplies,Printer Paper,Arjun Gupta,6,21089,500,126034.0,22077
+1260,2025-06-30,West,Pune,Electronics,Camera,Vikram Rao,1,25963,1000,24963.0,4510
+1261,2025-03-09,South,Hyderabad,Furniture,Desk,Karan Mehta,4,24605,500,97920.0,13260
+1262,2025-02-14,West,Ahmedabad,Office Supplies,Printer Ink,Karan Mehta,13,15072,500,195436.0,27329
+1263,2025-02-06,East,Kolkata,Office Supplies,Printer Paper,Sneha Joshi,4,31370,500,124980.0,12483
+1264,2025-06-15,West,Surat,Office Supplies,Printer Paper,Karan Mehta,13,55548,200,721924.0,117481
+1265,2025-01-03,South,Hyderabad,Furniture,Bookshelf,Rohan Kumar,6,41332,1000,246992.0,45767
+1266,2025-04-24,West,Pune,Electronics,Camera,Arjun Gupta,17,64976,1000,1103592.0,216743
+1267,2025-02-13,West,Pune,Electronics,Laptop,Meera Jain,8,38384,0,307072.0,38913
+1268,2025-04-04,West,Surat,Office Supplies,Whiteboard,Priya Patel,19,15069,500,285811.0,60525
+1269,2025-03-09,North,Jaipur,Office Supplies,Printer Paper,Vikram Rao,4,32544,500,129676.0,29659
+1270,2025-06-06,East,Kolkata,Furniture,Desk,Meera Jain,8,27609,5000,215872.0,38845
+1271,2025-06-02,West,Pune,Office Supplies,Printer Paper,Meera Jain,7,27224,0,190568.0,33713
+1272,2025-01-25,South,Chennai,Office Supplies,Marker Set,Rahul Verma,19,35141,2000,665679.0,164777
+1273,2025-03-05,South,Kochi,Electronics,Keyboard,Riya Shah,5,17492,200,87260.0,9150
+1274,2025-01-24,West,Surat,Electronics,Keyboard,Isha Nair,14,49274,1000,688836.0,63949
+1275,2025-01-24,West,Ahmedabad,Office Supplies,Marker Set,Ananya Das,16,42998,2000,685968.0,55165
+1276,2025-03-28,West,Ahmedabad,Electronics,Camera,Neha Singh,14,27867,1000,389138.0,48895
+1277,2025-04-23,South,Kochi,Furniture,Desk,Aarav Sharma,4,60338,0,241352.0,24405
+1278,2025-01-24,West,Mumbai,Furniture,Chair,Aditya Roy,5,39666,200,198130.0,45302
+1279,2025-03-01,East,Patna,Electronics,SSD,Isha Nair,6,6887,1000,40322.0,7514
+1280,2025-06-24,West,Mumbai,Office Supplies,Notebook,Aarav Sharma,7,62596,0,438172.0,44938
+1281,2025-04-09,West,Mumbai,Electronics,SSD,Riya Shah,4,55453,5000,216812.0,22216
+1282,2025-02-04,North,Delhi,Electronics,SSD,Sneha Joshi,10,18073,1000,179730.0,38010
+1283,2025-02-08,South,Bengaluru,Office Supplies,Whiteboard,Aarav Sharma,20,21611,1000,431220.0,60242
+1284,2025-04-20,West,Surat,Electronics,Monitor,Harish Menon,4,18451,0,73804.0,13301
+1285,2025-03-14,East,Bhubaneswar,Electronics,Keyboard,Isha Nair,3,32627,2000,95881.0,17466
+1286,2025-03-03,North,Lucknow,Electronics,Mouse,Aditya Roy,13,38837,5000,499881.0,44627
+1287,2025-03-23,West,Surat,Electronics,Mouse,Ananya Das,20,9407,2000,186140.0,-3458
+1288,2025-01-05,South,Kochi,Office Supplies,Printer Ink,Sneha Joshi,18,22745,1000,408410.0,98940
+1289,2025-04-17,North,Delhi,Furniture,Chair,Aarav Sharma,2,52263,2000,102526.0,13195
+1290,2025-02-09,West,Surat,Electronics,Tablet,Rahul Verma,3,40720,0,122160.0,20391
+1291,2025-01-30,East,Ranchi,Office Supplies,Notebook,Rahul Verma,14,31378,0,439292.0,53401
+1292,2025-03-30,West,Mumbai,Furniture,Chair,Priya Patel,1,18084,5000,13084.0,1071
+1293,2025-05-15,East,Bhubaneswar,Furniture,Chair,Aditya Roy,9,15573,0,140157.0,19194
+1294,2025-05-26,North,Lucknow,Office Supplies,Whiteboard,Isha Nair,3,65131,1000,194393.0,32431
+1295,2025-03-04,South,Chennai,Electronics,Keyboard,Meera Jain,4,15217,200,60668.0,-600
+1296,2025-06-17,North,Jaipur,Furniture,Cabinet,Harish Menon,5,23556,0,117780.0,20492
+1297,2025-06-22,West,Pune,Furniture,Chair,Vikram Rao,11,35654,0,392194.0,69481
+1298,2025-01-23,North,Chandigarh,Electronics,Laptop,Vikram Rao,3,61060,500,182680.0,38636
+1299,2025-06-01,West,Mumbai,Furniture,Chair,Rahul Verma,19,39934,5000,753746.0,140092
+1300,2025-03-30,West,Pune,Office Supplies,Whiteboard,Meera Jain,8,19835,0,158680.0,-4936
+1301,2025-05-06,North,Lucknow,Electronics,Camera,Riya Shah,10,13724,200,137040.0,23306
+1302,2025-04-28,North,Chandigarh,Office Supplies,Marker Set,Priya Patel,2,30439,2000,58878.0,8844
+1303,2025-02-03,North,Delhi,Office Supplies,Printer Paper,Isha Nair,13,9908,2000,126804.0,22384
+1304,2025-02-21,South,Chennai,Furniture,Bookshelf,Harish Menon,13,42862,500,556706.0,87385
+1305,2025-02-23,South,Bengaluru,Electronics,Monitor,Rohan Kumar,15,61186,500,917290.0,136774
+1306,2025-06-30,West,Ahmedabad,Furniture,Bookshelf,Riya Shah,4,11951,200,47604.0,10343
+1307,2025-03-08,North,Chandigarh,Furniture,Chair,Priya Patel,8,46727,1000,372816.0,62367
+1308,2025-02-05,South,Bengaluru,Furniture,Cabinet,Arjun Gupta,18,32848,0,591264.0,93743
+1309,2025-01-22,North,Delhi,Electronics,Mouse,Rohan Kumar,7,52605,500,367735.0,72321
+1310,2025-03-26,East,Kolkata,Electronics,Monitor,Neha Singh,15,16980,0,254700.0,59564
+1311,2025-02-14,North,Delhi,Furniture,Desk,Rohan Kumar,19,56874,5000,1075606.0,-3995
+1312,2025-06-15,East,Bhubaneswar,Electronics,Keyboard,Rahul Verma,15,19581,0,293715.0,54160
+1313,2025-06-14,East,Ranchi,Furniture,Sofa,Ananya Das,2,11597,500,22694.0,3293
+1314,2025-04-10,South,Bengaluru,Furniture,Bookshelf,Ananya Das,18,63627,500,1144786.0,269202
+1315,2025-05-16,East,Bhubaneswar,Electronics,SSD,Karan Mehta,8,3940,500,31020.0,2790
+1316,2025-01-15,East,Bhubaneswar,Electronics,Monitor,Neha Singh,8,35034,2000,278272.0,60877
+1317,2025-01-08,South,Kochi,Furniture,Chair,Rohan Kumar,8,41781,5000,329248.0,65387
+1318,2025-03-01,East,Bhubaneswar,Office Supplies,Printer Paper,Riya Shah,16,40608,200,649528.0,106116
+1319,2025-03-24,South,Bengaluru,Office Supplies,Printer Ink,Aarav Sharma,11,26506,200,291366.0,40187
+1320,2025-06-19,North,Delhi,Electronics,Tablet,Meera Jain,4,69082,500,275828.0,67107
+1321,2025-05-05,West,Mumbai,Furniture,Bookshelf,Sneha Joshi,5,20744,5000,98720.0,23818
+1322,2025-04-07,East,Bhubaneswar,Office Supplies,Whiteboard,Aditya Roy,20,46869,200,937180.0,181007
+1323,2025-06-06,East,Patna,Electronics,Tablet,Aditya Roy,1,51427,2000,49427.0,4226
+1324,2025-01-23,South,Bengaluru,Furniture,Chair,Sneha Joshi,3,31294,500,93382.0,23065
+1325,2025-01-01,East,Ranchi,Electronics,Keyboard,Neha Singh,8,8985,500,71380.0,8824
+1326,2025-05-03,North,Jaipur,Furniture,Cabinet,Rohan Kumar,14,64729,1000,905206.0,126465
+1327,2025-01-19,South,Hyderabad,Furniture,Desk,Meera Jain,2,38754,0,77508.0,10400
+1328,2025-05-04,East,Bhubaneswar,Furniture,Chair,Aditya Roy,3,12303,500,36409.0,6589
+1329,2025-02-18,North,Jaipur,Office Supplies,Printer Paper,Karan Mehta,14,20691,0,289674.0,28160
+1330,2025-05-06,West,Ahmedabad,Office Supplies,Marker Set,Rahul Verma,8,12671,0,101368.0,14880
+1331,2025-01-25,South,Bengaluru,Furniture,Desk,Vikram Rao,3,38707,5000,111121.0,20698
+1332,2025-06-19,North,Chandigarh,Electronics,Keyboard,Priya Patel,16,15239,500,243324.0,51932
+1333,2025-03-09,East,Kolkata,Office Supplies,Whiteboard,Vikram Rao,6,48730,1000,291380.0,41608
+1334,2025-01-22,West,Surat,Furniture,Chair,Riya Shah,9,8179,200,73411.0,15260
+1335,2025-05-02,East,Ranchi,Office Supplies,Printer Paper,Arjun Gupta,2,50838,2000,99676.0,15067
+1336,2025-06-23,South,Kochi,Furniture,Desk,Vikram Rao,2,65911,2000,129822.0,30258
+1337,2025-06-24,South,Bengaluru,Furniture,Chair,Rohan Kumar,7,25360,200,177320.0,15472
+1338,2025-01-18,West,Pune,Office Supplies,Printer Paper,Riya Shah,20,33901,500,677520.0,159106
+1339,2025-06-29,North,Jaipur,Office Supplies,Printer Ink,Arjun Gupta,11,36302,2000,397322.0,62731
+1340,2025-03-15,West,Mumbai,Furniture,Chair,Rohan Kumar,19,13233,0,251427.0,44164
+1341,2025-06-08,East,Ranchi,Furniture,Cabinet,Isha Nair,16,62103,0,993648.0,108579
+1342,2025-04-06,West,Mumbai,Furniture,Bookshelf,Aditya Roy,8,6560,5000,47480.0,7634
+1343,2025-04-24,North,Lucknow,Furniture,Bookshelf,Rahul Verma,16,12973,200,207368.0,21326
+1344,2025-05-05,East,Patna,Office Supplies,Printer Ink,Karan Mehta,3,24733,1000,73199.0,8486
+1345,2025-05-26,East,Kolkata,Office Supplies,Printer Paper,Priya Patel,10,66526,1000,664260.0,68458
+1346,2025-06-30,North,Chandigarh,Electronics,Mouse,Riya Shah,2,32801,0,65602.0,10338
+1347,2025-06-02,South,Chennai,Furniture,Cabinet,Arjun Gupta,13,16336,5000,207368.0,17666
+1348,2025-06-26,West,Pune,Furniture,Sofa,Arjun Gupta,12,45221,200,542452.0,120641
+1349,2025-03-10,North,Lucknow,Electronics,Camera,Aarav Sharma,6,28191,200,168946.0,32108
+1350,2025-06-05,West,Mumbai,Office Supplies,Notebook,Ananya Das,5,22801,2000,112005.0,24209
+1351,2025-05-14,East,Patna,Furniture,Cabinet,Riya Shah,12,60261,500,722632.0,84616
+1352,2025-03-28,West,Mumbai,Electronics,SSD,Arjun Gupta,20,37151,500,742520.0,145793
+1353,2025-01-15,East,Patna,Furniture,Bookshelf,Isha Nair,10,24788,200,247680.0,41595
+1354,2025-04-10,West,Ahmedabad,Office Supplies,Printer Paper,Aditya Roy,1,65291,500,64791.0,8040
+1355,2025-02-13,North,Chandigarh,Furniture,Chair,Isha Nair,18,62455,5000,1119190.0,157743
+1356,2025-02-26,South,Chennai,Electronics,Smartphone,Rohan Kumar,9,24095,5000,211855.0,49347
+1357,2025-01-31,East,Bhubaneswar,Office Supplies,Marker Set,Vikram Rao,11,48817,500,536487.0,96324
+1358,2025-06-24,West,Mumbai,Office Supplies,Whiteboard,Karan Mehta,20,9434,1000,187680.0,43392
+1359,2025-04-28,West,Ahmedabad,Furniture,Desk,Riya Shah,5,18104,200,90320.0,12487
+1360,2025-06-12,South,Chennai,Office Supplies,Printer Paper,Meera Jain,3,64008,500,191524.0,35867
+1361,2025-02-03,North,Delhi,Furniture,Bookshelf,Neha Singh,6,20866,1000,124196.0,26514
+1362,2025-01-04,West,Surat,Furniture,Cabinet,Ananya Das,13,711,0,9243.0,1578
+1363,2025-01-27,East,Bhubaneswar,Electronics,Laptop,Isha Nair,8,29757,5000,233056.0,53390
+1364,2025-05-15,West,Ahmedabad,Electronics,Monitor,Riya Shah,2,39185,500,77870.0,12265
+1365,2025-04-14,East,Ranchi,Office Supplies,Printer Paper,Sneha Joshi,16,47187,200,754792.0,81540
+1366,2025-01-10,North,Chandigarh,Electronics,Tablet,Neha Singh,1,66243,200,66043.0,6666
+1367,2025-01-13,West,Ahmedabad,Office Supplies,Whiteboard,Aarav Sharma,20,6386,5000,122720.0,12073
+1368,2025-06-25,North,Jaipur,Furniture,Cabinet,Priya Patel,18,33226,1000,597068.0,119006
+1369,2025-01-27,North,Lucknow,Furniture,Desk,Isha Nair,17,35486,2000,601262.0,110005
+1370,2025-04-02,North,Lucknow,Electronics,Monitor,Ananya Das,7,26281,500,183467.0,40611
+1371,2025-01-01,West,Ahmedabad,Electronics,Laptop,Arjun Gupta,16,27322,5000,432152.0,103124
+1372,2025-03-07,North,Delhi,Electronics,Smartphone,Rohan Kumar,3,67170,0,201510.0,40907
+1373,2025-04-03,South,Kochi,Furniture,Bookshelf,Ananya Das,2,13182,200,26164.0,5981
+1374,2025-04-02,East,Ranchi,Office Supplies,Notebook,Priya Patel,2,1367,200,2534.0,488
+1375,2025-03-11,West,Ahmedabad,Office Supplies,Notebook,Sneha Joshi,11,24069,0,264759.0,39219
+1376,2025-05-04,West,Surat,Furniture,Chair,Priya Patel,5,7786,200,38730.0,3781
+1377,2025-02-03,West,Pune,Office Supplies,Printer Ink,Meera Jain,12,3877,5000,41524.0,9533
+1378,2025-05-28,West,Surat,Electronics,Camera,Ananya Das,2,8401,500,16302.0,-4799
+1379,2025-03-30,South,Chennai,Office Supplies,Whiteboard,Aditya Roy,20,12583,1000,250660.0,48249
+1380,2025-02-12,West,Pune,Office Supplies,Whiteboard,Aarav Sharma,1,20668,2000,18668.0,4187
+1381,2025-04-14,North,Jaipur,Furniture,Chair,Sneha Joshi,9,6699,2000,58291.0,6870
+1382,2025-01-31,South,Bengaluru,Furniture,Cabinet,Meera Jain,19,58833,0,1117827.0,252204
+1383,2025-06-13,West,Mumbai,Electronics,Camera,Vikram Rao,2,122,0,244.0,52
+1384,2025-06-08,East,Bhubaneswar,Office Supplies,Printer Ink,Sneha Joshi,12,7213,200,86356.0,19303
+1385,2025-03-16,West,Ahmedabad,Office Supplies,Printer Ink,Priya Patel,4,29164,0,116656.0,16102
+1386,2025-01-31,East,Kolkata,Electronics,Tablet,Ananya Das,5,53736,0,268680.0,33109
+1387,2025-06-22,West,Pune,Furniture,Chair,Aditya Roy,11,14225,1000,155475.0,13667
+1388,2025-04-21,North,Jaipur,Furniture,Sofa,Arjun Gupta,5,65482,0,327410.0,55712
+1389,2025-03-24,West,Pune,Office Supplies,Whiteboard,Rohan Kumar,5,13673,1000,67365.0,12919
+1390,2025-04-16,West,Surat,Office Supplies,Printer Paper,Rahul Verma,13,45039,500,585007.0,91836
+1391,2025-03-30,East,Patna,Office Supplies,Whiteboard,Isha Nair,7,26430,200,184810.0,34394
+1392,2025-06-20,South,Hyderabad,Office Supplies,Whiteboard,Aditya Roy,11,15226,500,166986.0,29320
+1393,2025-02-21,West,Ahmedabad,Furniture,Desk,Arjun Gupta,4,3412,1000,12648.0,1324
+1394,2025-04-26,East,Bhubaneswar,Furniture,Bookshelf,Rohan Kumar,2,38784,200,77368.0,16101
+1395,2025-04-08,North,Chandigarh,Office Supplies,Whiteboard,Vikram Rao,8,67067,5000,531536.0,68514
+1396,2025-04-24,West,Surat,Office Supplies,Marker Set,Arjun Gupta,2,1799,5000,-1402.0,-172
+1397,2025-02-15,South,Chennai,Office Supplies,Whiteboard,Aditya Roy,20,25851,5000,512020.0,124896
+1398,2025-05-30,North,Chandigarh,Electronics,Monitor,Vikram Rao,2,56265,500,112030.0,19562
+1399,2025-06-10,East,Kolkata,Furniture,Cabinet,Aditya Roy,5,5335,200,26475.0,6297
+1400,2025-01-18,East,Ranchi,Office Supplies,Whiteboard,Sneha Joshi,3,41762,2000,123286.0,14472
+1401,2025-03-26,South,Kochi,Office Supplies,Whiteboard,Vikram Rao,3,45896,200,137488.0,31646
+1402,2025-06-14,East,Patna,Electronics,Smartphone,Arjun Gupta,1,15136,5000,10136.0,1407
+1403,2025-05-13,South,Bengaluru,Office Supplies,Marker Set,Vikram Rao,4,50677,500,202208.0,34747
+1404,2025-05-18,East,Ranchi,Furniture,Desk,Rahul Verma,7,42084,2000,292588.0,27502
+1405,2025-04-22,North,Delhi,Electronics,Mouse,Riya Shah,14,13721,200,191894.0,32894
+1406,2025-03-06,North,Chandigarh,Electronics,Smartphone,Aditya Roy,11,5065,0,55715.0,5150
+1407,2025-01-31,North,Chandigarh,Furniture,Cabinet,Vikram Rao,15,53111,1000,795665.0,106451
+1408,2025-03-19,North,Delhi,Office Supplies,Whiteboard,Aarav Sharma,3,46984,2000,138952.0,13623
+1409,2025-04-11,North,Lucknow,Furniture,Cabinet,Vikram Rao,1,62226,200,62026.0,10587
+1410,2025-04-11,East,Bhubaneswar,Furniture,Bookshelf,Aarav Sharma,18,18630,0,335340.0,29208
+1411,2025-03-06,North,Lucknow,Electronics,SSD,Neha Singh,14,67281,200,941734.0,101106
+1412,2025-01-18,South,Bengaluru,Electronics,Laptop,Riya Shah,18,60558,5000,1085044.0,188193
+1413,2025-06-08,East,Kolkata,Electronics,Smartphone,Sneha Joshi,12,16905,5000,197860.0,37876
+1414,2025-04-04,North,Chandigarh,Furniture,Cabinet,Ananya Das,11,40165,5000,436815.0,78324
+1415,2025-04-03,East,Ranchi,Electronics,Laptop,Sneha Joshi,8,29135,5000,228080.0,46931
+1416,2025-06-05,South,Chennai,Furniture,Cabinet,Ananya Das,12,40138,1000,480656.0,83530
+1417,2025-05-29,North,Lucknow,Electronics,Mouse,Rahul Verma,3,9982,0,29946.0,6720
+1418,2025-02-27,West,Pune,Electronics,Keyboard,Arjun Gupta,18,61979,5000,1110622.0,235211
+1419,2025-06-07,East,Bhubaneswar,Furniture,Sofa,Arjun Gupta,3,52107,500,155821.0,25767
+1420,2025-01-11,South,Hyderabad,Furniture,Chair,Rohan Kumar,19,19262,5000,360978.0,73798
+1421,2025-04-03,South,Kochi,Electronics,Monitor,Rahul Verma,12,30773,0,369276.0,71513
+1422,2025-03-12,West,Surat,Furniture,Desk,Aarav Sharma,11,13629,5000,144919.0,35452
+1423,2025-02-27,East,Bhubaneswar,Furniture,Cabinet,Sneha Joshi,19,10302,2000,193738.0,23785
+1424,2025-02-28,West,Ahmedabad,Furniture,Cabinet,Meera Jain,16,964,2000,13424.0,3086
+1425,2025-02-28,North,Lucknow,Electronics,Tablet,Rohan Kumar,6,47577,2000,283462.0,57242
+1426,2025-04-16,West,Ahmedabad,Office Supplies,Notebook,Ananya Das,16,62886,200,1005976.0,181512
+1427,2025-05-27,North,Chandigarh,Electronics,Tablet,Karan Mehta,19,21219,200,402961.0,75362
+1428,2025-01-05,South,Bengaluru,Electronics,Keyboard,Harish Menon,6,67817,1000,405902.0,73829
+1429,2025-02-06,East,Kolkata,Electronics,Smartphone,Karan Mehta,16,63233,200,1011528.0,118643
+1430,2025-01-05,South,Chennai,Electronics,SSD,Harish Menon,15,9123,200,136645.0,19717
+1431,2025-05-04,South,Kochi,Electronics,Monitor,Rohan Kumar,16,5216,2000,81456.0,13486
+1432,2025-05-04,South,Bengaluru,Office Supplies,Printer Ink,Arjun Gupta,14,48646,0,681044.0,135254
+1433,2025-01-22,West,Ahmedabad,Office Supplies,Whiteboard,Priya Patel,14,17648,500,246572.0,39726
+1434,2025-02-22,East,Ranchi,Furniture,Chair,Aarav Sharma,1,68590,0,68590.0,11547
+1435,2025-04-04,East,Ranchi,Furniture,Desk,Rohan Kumar,14,33344,500,466316.0,105082
+1436,2025-03-06,East,Ranchi,Electronics,Camera,Arjun Gupta,18,63338,200,1139884.0,162930
+1437,2025-02-11,East,Patna,Office Supplies,Printer Ink,Aditya Roy,5,15708,5000,73540.0,8755
+1438,2025-01-24,North,Chandigarh,Office Supplies,Printer Ink,Meera Jain,11,6922,200,75942.0,11098
+1439,2025-04-09,South,Kochi,Office Supplies,Printer Ink,Priya Patel,3,34583,200,103549.0,14811
+1440,2025-05-13,West,Ahmedabad,Office Supplies,Whiteboard,Aarav Sharma,6,64897,1000,388382.0,31777
+1441,2025-01-23,East,Bhubaneswar,Electronics,Mouse,Karan Mehta,6,4826,500,28456.0,-1789
+1442,2025-01-24,East,Ranchi,Furniture,Cabinet,Vikram Rao,19,26355,2000,498745.0,41202
+1443,2025-03-08,East,Patna,Furniture,Bookshelf,Neha Singh,20,25596,1000,510920.0,121625
+1444,2025-05-12,South,Kochi,Office Supplies,Notebook,Arjun Gupta,3,66051,500,197653.0,27235
+1445,2025-04-28,East,Patna,Office Supplies,Printer Ink,Vikram Rao,19,63490,200,1206110.0,251800
+1446,2025-06-29,West,Mumbai,Furniture,Desk,Rahul Verma,3,50257,5000,145771.0,31205
+1447,2025-01-24,South,Chennai,Furniture,Bookshelf,Arjun Gupta,18,1374,5000,19732.0,4370
+1448,2025-06-24,West,Ahmedabad,Electronics,Tablet,Ananya Das,11,46438,200,510618.0,118480
+1449,2025-06-08,South,Kochi,Office Supplies,Printer Paper,Neha Singh,8,34887,200,278896.0,33178
+1450,2025-01-11,East,Bhubaneswar,Electronics,Monitor,Harish Menon,3,64674,2000,192022.0,15577
+1451,2025-05-11,West,Ahmedabad,Office Supplies,Marker Set,Ananya Das,19,36109,1000,685071.0,76103
+1452,2025-03-30,East,Ranchi,Electronics,Tablet,Aarav Sharma,17,55566,1000,943622.0,226225
+1453,2025-04-08,West,Pune,Furniture,Desk,Aditya Roy,17,60402,500,1026334.0,-2226
+1454,2025-06-06,North,Lucknow,Furniture,Sofa,Riya Shah,9,24630,2000,219670.0,27389
+1455,2025-04-13,East,Patna,Electronics,Smartphone,Vikram Rao,7,55031,5000,380217.0,79036
+1456,2025-04-21,East,Ranchi,Electronics,Tablet,Karan Mehta,8,13190,5000,100520.0,12654
+1457,2025-06-11,West,Pune,Electronics,Tablet,Ananya Das,1,23248,1000,22248.0,3669
+1458,2025-02-25,East,Ranchi,Furniture,Bookshelf,Arjun Gupta,19,6353,1000,119707.0,11590
+1459,2025-03-07,East,Ranchi,Office Supplies,Notebook,Ananya Das,11,34148,500,375128.0,52987
+1460,2025-02-14,East,Kolkata,Furniture,Desk,Sneha Joshi,20,26177,2000,521540.0,92783
+1461,2025-02-07,East,Patna,Furniture,Sofa,Ananya Das,15,10377,1000,154655.0,28506
+1462,2025-03-23,South,Chennai,Furniture,Sofa,Karan Mehta,13,9451,0,122863.0,13212
+1463,2025-04-16,East,Patna,Office Supplies,Printer Ink,Rahul Verma,15,47700,5000,710500.0,127731
+1464,2025-02-12,South,Hyderabad,Electronics,Tablet,Aditya Roy,8,33083,5000,259664.0,51703
+1465,2025-01-22,West,Mumbai,Electronics,Monitor,Harish Menon,16,7155,0,114480.0,24162
+1466,2025-06-10,North,Lucknow,Office Supplies,Printer Paper,Priya Patel,13,40649,200,528237.0,64475
+1467,2025-05-19,South,Hyderabad,Office Supplies,Printer Paper,Aarav Sharma,2,46871,500,93242.0,21158
+1468,2025-04-22,East,Ranchi,Electronics,Tablet,Karan Mehta,20,59940,5000,1193800.0,247492
+1469,2025-03-19,East,Patna,Furniture,Sofa,Neha Singh,3,58015,500,173545.0,24675
+1470,2025-05-03,North,Delhi,Office Supplies,Printer Paper,Sneha Joshi,10,61598,2000,613980.0,49986
+1471,2025-05-24,East,Kolkata,Furniture,Bookshelf,Karan Mehta,8,1046,2000,6368.0,913
+1472,2025-03-03,West,Surat,Electronics,Tablet,Aditya Roy,13,49692,200,645796.0,80535
+1473,2025-03-16,East,Patna,Office Supplies,Whiteboard,Meera Jain,9,54220,200,487780.0,109795
+1474,2025-05-17,North,Jaipur,Office Supplies,Printer Ink,Rahul Verma,20,64586,200,1291520.0,173721
+1475,2025-01-04,North,Chandigarh,Electronics,Keyboard,Rahul Verma,5,57564,5000,282820.0,23020
+1476,2025-01-21,West,Pune,Furniture,Cabinet,Rahul Verma,16,48779,1000,779464.0,154707
+1477,2025-04-08,South,Bengaluru,Furniture,Cabinet,Priya Patel,18,61723,200,1110814.0,125158
+1478,2025-01-25,North,Delhi,Office Supplies,Printer Paper,Vikram Rao,15,32496,5000,482440.0,120161
+1479,2025-05-21,South,Kochi,Furniture,Bookshelf,Harish Menon,11,20889,5000,224779.0,45810
+1480,2025-06-12,North,Lucknow,Furniture,Bookshelf,Neha Singh,12,6927,5000,78124.0,9142
+1481,2025-05-29,West,Ahmedabad,Electronics,Tablet,Meera Jain,9,15782,1000,141038.0,-844
+1482,2025-06-10,West,Pune,Furniture,Desk,Neha Singh,6,65625,0,393750.0,77415
+1483,2025-05-23,North,Delhi,Furniture,Chair,Aditya Roy,18,14176,200,254968.0,41542
+1484,2025-05-05,East,Ranchi,Office Supplies,Printer Paper,Aarav Sharma,13,47045,5000,606585.0,62420
+1485,2025-03-12,West,Ahmedabad,Office Supplies,Printer Ink,Neha Singh,19,24561,2000,464659.0,64635
+1486,2025-04-08,South,Bengaluru,Office Supplies,Printer Paper,Ananya Das,10,34617,2000,344170.0,-4644
+1487,2025-05-18,South,Bengaluru,Office Supplies,Marker Set,Meera Jain,20,31398,500,627460.0,127104
+1488,2025-03-24,West,Pune,Office Supplies,Printer Ink,Meera Jain,18,20302,2000,363436.0,46567
+1489,2025-01-26,North,Delhi,Office Supplies,Notebook,Aarav Sharma,5,23514,0,117570.0,13444
+1490,2025-01-19,North,Jaipur,Office Supplies,Printer Ink,Arjun Gupta,20,33646,0,672920.0,95743
+1491,2025-04-17,North,Chandigarh,Office Supplies,Printer Ink,Harish Menon,3,61449,5000,179347.0,16198
+1492,2025-05-13,East,Kolkata,Office Supplies,Marker Set,Arjun Gupta,2,9325,500,18150.0,1692
+1493,2025-06-10,North,Delhi,Office Supplies,Printer Paper,Arjun Gupta,13,24932,200,323916.0,54888
+1494,2025-01-27,South,Kochi,Office Supplies,Notebook,Meera Jain,19,47018,5000,888342.0,140342
+1495,2025-04-01,South,Hyderabad,Office Supplies,Printer Ink,Arjun Gupta,11,20832,2000,227152.0,56727
+1496,2025-04-07,East,Patna,Furniture,Cabinet,Meera Jain,14,42495,2000,592930.0,71698
+1497,2025-03-19,East,Patna,Furniture,Cabinet,Vikram Rao,1,4643,500,4143.0,751
+1498,2025-05-11,North,Lucknow,Electronics,Mouse,Riya Shah,11,2944,5000,27384.0,6018
+1499,2025-03-01,South,Bengaluru,Electronics,Smartphone,Sneha Joshi,5,18241,500,90705.0,12916
+1500,2025-05-05,East,Patna,Electronics,Camera,Karan Mehta,7,10218,5000,66526.0,8994
+1011,2025-03-06,South,Hyderabad,Office Supplies,Printer Ink,Karan Mehta,3,50532,1000,150596.0,27303

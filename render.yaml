@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: insightflow-backend
+    env: python
+    buildCommand: bash build.sh
+    startCommand: bash start.sh
+    disk:
+      name: sqlite-data
+      mountPath: /opt/render/project/src/prisma
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: PORT
+        value: 8000
+      - key: JWT_SECRET
+        generateValue: true

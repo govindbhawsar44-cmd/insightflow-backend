@@ -1,0 +1,11 @@
+OrderID,Date,Region,City,Category,Product,Customer,Quantity,UnitPrice,Discount,Sales,Profit
+1001,2025-01-03,North,Delhi,Electronics,Laptop,Aarav Sharma,2,65000,5000,125000,22000
+1002,2025-01-05,West,Mumbai,Furniture,Office Chair,Priya Patel,5,7000,500,34500,9000
+1003,2025-01-07,South,Bengaluru,Electronics,Monitor,Rohan Kumar,3,15000,1000,44000,8000
+1004,2025-01-08,East,Kolkata,Office Supplies,Printer Paper,Neha Singh,20,350,0,7000,1800
+1005,2025-01-10,North,Chandigarh,Furniture,Desk,Rahul Verma,2,12000,1000,23000,5200
+1006,2025-01-12,West,Pune,Electronics,Keyboard,Sneha Joshi,10,1500,500,14500,3500
+1007,2025-01-15,South,Hyderabad,Electronics,Mouse,Vikram Rao,15,800,200,11800,2900
+1008,2025-01-18,East,Bhubaneswar,Furniture,Bookshelf,Ananya Das,1,9000,0,9000,2000
+1009,2025-01-20,North,Delhi,Electronics,Tablet,Arjun Gupta,4,25000,3000,97000,17000
+1010,2025-01-22,West,Ahmedabad,Office Supplies,Notebook,Karan Mehta,50,120,200,5800,1600
