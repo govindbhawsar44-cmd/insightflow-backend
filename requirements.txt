@@ -5,7 +5,7 @@ numpy
 openpyxl
 prisma
 python-multipart
-python-jose[cryptography]
+PyJWT
 passlib
 bcrypt==3.2.2
 fpdf

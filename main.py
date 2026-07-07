@@ -11,6 +11,19 @@ async def lifespan(app: FastAPI):
         print("Attempting to connect to Prisma database...")
         await prisma.connect()
         print("Successfully connected to Prisma database.")
+        
+        # Ensure mock user exists for portfolio demo
+        mock_user = await prisma.user.find_unique(where={"id": "user_mock"})
+        if not mock_user:
+            await prisma.user.create(
+                data={
+                    "id": "user_mock",
+                    "email": "mock-demo-unique@insightiq.com",
+                    "name": "Demo User",
+                    "passwordHash": "mock_hash"
+                }
+            )
+            print("Created mock user for portfolio demo.")
     except Exception as e:
         print(f"CRITICAL ERROR connecting to database: {e}")
         # Don't crash Uvicorn; let it start so we can see the logs
@@ -24,8 +37,8 @@ app = FastAPI(title="InsightFlow API", lifespan=lifespan)
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"], # Update in production
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
