@@ -53,3 +53,12 @@ app.include_router(reports.router)
 @app.get("/api/health")
 async def health_check():
     return {"status": "ok"}
+
+@app.get("/api/debug")
+async def debug_check():
+    import traceback, sys, os
+    try:
+        datasets = await prisma.dataset.find_many()
+        return {"status": "success", "datasets": len(datasets), "db_exists": os.path.exists("prisma/dev.db")}
+    except Exception as e:
+        return {"status": "error", "error": str(e), "traceback": traceback.format_exc(), "db_exists": os.path.exists("prisma/dev.db")}
