@@ -26,20 +26,36 @@ async def generate_dashboard(dataset_id: str, user_id: str = Depends(get_current
         numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
         cat_cols = df.select_dtypes(include=['object', 'category']).columns.tolist()
         
-        layout = []
-        
-        layout.append({"id": "kpi-rows", "type": "kpi", "w": 4, "config": {"title": "Total Rows", "metric": "total_rows"}})
-        if numeric_cols:
-            layout.append({"id": "kpi-sum", "type": "kpi", "w": 4, "config": {"title": f"Total {numeric_cols[0]}", "metric": "total_sum"}})
-            layout.append({"id": "kpi-avg", "type": "kpi", "w": 4, "config": {"title": f"Average {numeric_cols[0]}", "metric": "average"}})
+        # Determine main metrics dynamically for titles
+        sales_col = None
+        for col in numeric_cols:
+            if any(k in str(col).lower() for k in ['sales', 'revenue', 'amount', 'total']):
+                sales_col = col
+                break
+        if not sales_col and numeric_cols:
+            sales_col = numeric_cols[0]
             
-        if cat_cols and numeric_cols:
-            layout.append({"id": "pie-1", "type": "pie_chart", "w": 4, "config": {"title": f"Breakdown by {cat_cols[0]}"}})
-            layout.append({"id": "bar-1", "type": "bar_chart", "w": 8, "config": {"title": f"Top 10 {cat_cols[0]}"}})
+        dim_col = None
+        for col in cat_cols:
+            if any(k in str(col).lower() for k in ['category', 'product', 'item', 'department', 'sub-category', 'region', 'state', 'city', 'country']):
+                dim_col = col
+                break
+        if not dim_col and cat_cols:
+            dim_col = cat_cols[0]
+        
+        layout = []
+        layout.append({"id": "kpi-rows", "type": "kpi", "w": 4, "config": {"title": "Total Rows", "metric": "total_rows"}})
+        if sales_col:
+            layout.append({"id": "kpi-sum", "type": "kpi", "w": 4, "config": {"title": f"Total {sales_col.replace('_', ' ')}", "metric": "total_sum"}})
+            layout.append({"id": "kpi-avg", "type": "kpi", "w": 4, "config": {"title": f"Average {sales_col.replace('_', ' ')}", "metric": "average"}})
+            
+        if dim_col and sales_col:
+            layout.append({"id": "pie-1", "type": "pie_chart", "w": 4, "config": {"title": f"Breakdown by {dim_col.replace('_', ' ')}"}})
+            layout.append({"id": "bar-1", "type": "bar_chart", "w": 8, "config": {"title": f"Top 10 by {dim_col.replace('_', ' ')}"}})
             
         if len(numeric_cols) > 1:
-            layout.append({"id": "scatter-1", "type": "scatter_plot", "w": 6, "config": {"title": f"{numeric_cols[0]} vs {numeric_cols[1]}"}})
-            layout.append({"id": "dist-1", "type": "distribution", "w": 6, "config": {"title": f"Distribution of {numeric_cols[0]}"}})
+            layout.append({"id": "scatter-1", "type": "scatter_plot", "w": 6, "config": {"title": f"Distribution Analysis"}})
+            layout.append({"id": "dist-1", "type": "distribution", "w": 6, "config": {"title": f"Key Metrics Distribution"}})
 
         existing = await prisma.dashboard.find_unique(where={"datasetId": dataset.id})
         if existing:
