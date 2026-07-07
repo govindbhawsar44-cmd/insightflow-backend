@@ -64,10 +64,14 @@ async def generate_analytics(req: AnalyticsRequest, user_id: str = Depends(get_c
         if not profit_col and len(numeric_cols) > 1: profit_col = numeric_cols[1]
         if not category_col and cat_cols: category_col = cat_cols[0]
         if not region_col and len(cat_cols) > 1: region_col = cat_cols[1]
+        
+        # Ensure numeric columns are actually numeric before aggregation
+        if sales_col: df[sales_col] = pd.to_numeric(df[sales_col], errors='coerce').fillna(0)
+        if profit_col: df[profit_col] = pd.to_numeric(df[profit_col], errors='coerce').fillna(0)
 
         # Calculate KPIs
-        total_sales = float(df[sales_col].sum()) if sales_col else 0
-        total_profit = float(df[profit_col].sum()) if profit_col else 0
+        total_sales = float(pd.to_numeric(df[sales_col], errors='coerce').sum()) if sales_col else 0
+        total_profit = float(pd.to_numeric(df[profit_col], errors='coerce').sum()) if profit_col else 0
         total_orders = df[order_col].nunique() if order_col else len(df)
         total_customers = df[customer_col].nunique() if customer_col else int(len(df) * 0.8)
         
